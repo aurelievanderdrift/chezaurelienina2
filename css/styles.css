@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+header {
+    background-color: #005a4a;
+}
+
+h1 {
+    display: none;
+}
+
+nav a {
+    color: black;
+    font-family: 'Gruppo', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+ 
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0.5em
+}
+    
+header ul li a {
+    margin: 0.5em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+main p {
+    font-family: 'Gruppo', sans-serif; 
+    margin-top: 1em;
+    margin-bottom: 2em;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #005a4a;
+    padding: 1em;
+    color: white;
+}
+
+footer p {
+    font-family: 'Gruppo', sans-serif; 
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #005a4a;
+    padding: 1em;
+    color: white;
+}
+
+body {
+    margin: 0;
+    background-color: #f6b8d5; 
+    animation: backgroundAnimation 10s linear infinite; 
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-color: rgba(246, 184, 213, 0.2); 
+    }
+    50% {
+        background-color: rgba(235, 230, 220, 0.4); 
+    }
+    100% {
+        background-color: rgba(208, 218, 81, 0.2); 
+    }
+}
+
+img.tafelfoto {
+    margin-bottom: 2em;
+}
+
+section {
+    background-image: url(../afbeeldingen/achtergrondcheznina.png);
+    background-size: cover;
+    padding: 2em;
+}
+
+@font-face {
+    font-family: somethingstraight;
+    src: url(../fonts/somethingstraight.ttf);
+}
+
+section h2 {
+    text-align: center;
+    font-family: somethingstraight;
+    color: white;
+    background-color: #f6b8d5;
+    padding: 0.5em;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin: 0;
+}
+
+section p {
+    margin: 0;
+    background-color: #f6b8d5;
+}
+
+header div {
+    background-image: url(../afbeeldingen/buitenkantmetroze.png);
+    background-size: cover;
+}
+
+header div h2 {
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-size: 70px;
+    font-family: somethingstraight;
+    letter-spacing: 3px;
+}
+
+.afbeeldingen-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 0.5em;
+}
+
+.afbeeldingen-grid img {
+    width: 100%;
+    height: auto;
+}
+
+.menu p {
+    background-color: transparent;
+    color: #005a4a;
+}
+
+.overons p {
+    background-color: transparent;
+    color: #005a4a;  
+    background-color: #f6b8d5;
+    margin: 0;
+}
+
+.overons div {
+    background-image: url(../afbeeldingen/achtergrondcheznina.png);
+    background-size: cover;
+    padding: 2em;
+}
+
+.landingpagina footer {
+    display: none;
+}
+
+.landingpagina header {
+    display: none;
+}
+
+.landingpagina h2 {
+    font-family: somethingstraight;
+    letter-spacing: 2px;
+    margin-top: 4em;
+    text-align: center;
+    color: #005a4a;
+    font-size: 42px;
+}
+
+body.landingpagina {
+    animation: backgroundAnimation 5s linear infinite; /* Animatie voor de achtergrondkleur */
+    background-color: #f6b8d5; /* Startkleur van de achtergrond */
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-color: rgba(246, 184, 213, 0.2); /* Startkleur met lage opacity */
+    }
+    25% {
+        background-color: rgba(208, 218, 81, 0.2); /* Eindkleur met lage opacity */
+    }
+    50% {
+        background-color: rgba(232, 75, 15, 0.2); /* Nieuwe kleur met lage opacity */
+    }
+    75% {
+        background-color: rgba(246, 184, 213, 0.2); /* Terug naar startkleur met lage opacity */
+    }
+    100% {
+        background-color: rgba(208, 218, 81, 0.2); /* Terug naar eindkleur met lage opacity */
+    }
+}
+
+.landingpagina a {
+    text-decoration: none;
+    font-family: somethingstraight;
+    text-align: center;
+    display: block;
+    background-color: #f6b8d5;
+    color: #005a4a;
+    padding: 0.5em;
+    margin: 1em;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+
