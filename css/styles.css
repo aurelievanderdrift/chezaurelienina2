@@ -74,6 +74,8 @@ body {
     }
 }
 
+/* bron bovenstaande animatie: https://stackoverflow.com/questions/43371912/how-to-make-an-html-css-js-color-changing-background-like-kahoot-it-has */
+
 img.tafelfoto {
     margin-bottom: 2em;
 }
@@ -166,25 +168,25 @@ header div h2 {
 }
 
 body.landingpagina {
-    animation: backgroundAnimation 5s linear infinite; /* Animatie voor de achtergrondkleur */
-    background-color: #f6b8d5; /* Startkleur van de achtergrond */
+    animation: backgroundAnimation 5s linear infinite; 
+    background-color: #f6b8d5; 
 }
 
 @keyframes backgroundAnimation {
     0% {
-        background-color: rgba(246, 184, 213, 0.2); /* Startkleur met lage opacity */
+        background-color: rgba(246, 184, 213, 0.2); /
     }
     25% {
-        background-color: rgba(208, 218, 81, 0.2); /* Eindkleur met lage opacity */
+        background-color: rgba(208, 218, 81, 0.2); 
     }
     50% {
-        background-color: rgba(232, 75, 15, 0.2); /* Nieuwe kleur met lage opacity */
+        background-color: rgba(232, 75, 15, 0.2); 
     }
     75% {
-        background-color: rgba(246, 184, 213, 0.2); /* Terug naar startkleur met lage opacity */
+        background-color: rgba(246, 184, 213, 0.2); 
     }
     100% {
-        background-color: rgba(208, 218, 81, 0.2); /* Terug naar eindkleur met lage opacity */
+        background-color: rgba(208, 218, 81, 0.2); 
     }
 }
 
